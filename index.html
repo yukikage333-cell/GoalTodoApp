@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <title>完成形 ToDo（ダーク）</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header>
+      <h1>Goal ToDo — 完成形</h1>
+      <p class="subtitle">目標を追加すると自動でタスクが5つ作られます。目標・タスク共に期限を設定できます。</p>
+    </header>
+
+    <section class="create-area">
+      <input id="goalInput" type="text" placeholder="目標を入力（例：英語を習得）" />
+      <input id="goalDeadline" type="date" />
+      <button id="addGoalBtn">＋ 目標を追加</button>
+      <button id="clearAllBtn" title="すべてのデータを削除">全データ消去</button>
+    </section>
+
+    <section id="goalsContainer" class="goals"></section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
