@@ -9,11 +9,20 @@
 <body>
   <main class="app">
     <header>
+      
       <h1>Goal ToDoList</h1>
+      <!-- Points display (追加) -->
+<div id="pointsDisplay" style="position:absolute; right:28px; top:28px; z-index:20;">
+  🔥 ポイント: <span id="pointsValue">0</span>
+</div>
+
       <p class="subtitle">目標を追加すると自動でタスクが5つ作られます。目標・タスク共に期限を設定できます。</p>
     </header>
 
     <section class="create-area">
+      <button id="summaryBtn" title="今日 / 今週のまとめ">📘 まとめ</button>
+      <button id="calendarBtn" title="月間カレンダー">📅 カレンダー</button>
+
       <input id="goalInput" type="text" placeholder="目標を入力（例：英語を習得）" />
       <input id="goalDeadline" type="date" />
       <button id="addGoalBtn">＋ 目標を追加</button>
@@ -24,5 +33,27 @@
   </main>
 
   <script src="script.js"></script>
+
+<!-- Summary Modal -->
+<div id="summaryModal" class="modal">
+  <div class="modal-content">
+    <button class="close" id="closeSummary">✕</button>
+    <h2>今日 / 今週のタスク</h2>
+    <div id="todayList"></div>
+    <hr>
+    <h3>今週の目標</h3>
+    <div id="weekList"></div>
+  </div>
+</div>
+
+<!-- Calendar Modal -->
+<div id="calendarModal" class="modal">
+  <div class="modal-content">
+    <button class="close" id="closeCalendar">✕</button>
+    <h2>月間カレンダー</h2>
+    <div id="calendar"></div>
+  </div>
+</div>
+
 </body>
 </html>
