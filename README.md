@@ -19,9 +19,7 @@ GoalTodoApp は、
 
 <div align="center">
 
-  <!-- おしゃれフレーム -->
-  <img src="https://raw.githubusercontent.com/stevenlei/Computer-Frame-Collection/main/Macbook/macbook-white.png" width="700">
-
+ 
   <!-- あなたの動画を入れる -->
   <video src="https://github.com/user-attachments/assets/a805dcab-0ad3-4cd0-b08d-ac5ca3c61350.mp4" width="600" controls></video>
 
