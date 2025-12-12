@@ -15,7 +15,6 @@ GoalTodoApp は、
 プログラミング学習のアウトプットとして制作しながら、
 「実際に使えるアプリ」を目指して UI・操作感にもこだわっています。
 🎥 デモ動画
-<div align="center"> <!-- Macbookフレーム --> <img src="https://raw.githubusercontent.com/stevenlei/Computer-Frame-Collection/main/Macbook/macbook-white.png" width="700"> <!-- アプリ動画 -->
 
 <video src="https://github.com/user-attachments/assets/a805dcab-0ad3-4cd0-b08d-ac5ca3c61350" width="600" controls></video>
 
@@ -114,12 +113,8 @@ Goal追加ごとに順番で色を割り当て。
 「ToDo を作る」ではなく、
 “目標達成アプリ” を作りたいと思ったのがきっかけ。
 
-使いやすさ
+使いやすさ 見やすさ 実用性を重視しました。
 
-見やすさ
-
-実用性
-を重視しました。
 
 プログラミング学習の集大成として、
 ポートフォリオにも使えるレベルを目指しています。
