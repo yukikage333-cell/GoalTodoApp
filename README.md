@@ -16,7 +16,7 @@ GoalTodoApp は、
 「実際に使えるアプリ」を目指して UI・操作感にもこだわっています。
 🎥 デモ動画
 
-<video src="https://github.com/user-attachments/assets/a805dcab-0ad3-4cd0-b08d-ac5ca3c61350" width="600" controls></video>
+<video src="https://github.com/user-attachments/assets/1907d580-4261-4b4b-bdb8-1a06c63422cb" width="600" controls></video>
 
 </div>
 🚀 主な機能紹介
