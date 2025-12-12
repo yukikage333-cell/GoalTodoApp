@@ -1,10 +1,3 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Goal%20Tracker-App-black?style=for-the-badge&logoColor=white">
-  <img src="https://img.shields.io/badge/Language-JavaScript-4db8ff?style=for-the-badge&logo=javascript&logoColor=white">
-  <img src="https://img.shields.io/badge/Storage-localStorage-33d69f?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge">
-</p>
-
 
 # 🎯 Goal Tracker（目標管理アプリ）
 
