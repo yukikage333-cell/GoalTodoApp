@@ -1,51 +1,23 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>GoalTodoApp — Modern Dark</title>
+  <meta charset="UTF-8" />
+  <title>Goal Tracker</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="app">
 
-    <header class="header">
-      <h1>🎯 GoalTodoApp</h1>
-      <p class="subtitle">目標達成を美しく管理する</p>
-    </header>
+    <h1 class="title">Goal Tracker</h1>
 
-    <!-- Goal Create -->
-    <section class="goal-create">
-      <input id="goalInput" type="text" placeholder="目標を入力…" />
-      <input id="goalDeadline" type="date" />
+    <div class="goal-add-area">
+      <input id="goalInput" placeholder="目標を入力">
+      <input id="goalDeadline" type="date">
       <button id="addGoalBtn">追加</button>
-      <button id="summaryBtn" class="ghost">まとめ</button>
-      <button id="calendarBtn" class="ghost">カレンダー</button>
-      <button id="deleteAllBtn" class="danger">全削除</button>
-    </section>
-
-    <!-- Goals -->
-    <main id="goalsContainer" class="goals"></main>
-
-    <!-- Summary Modal -->
-    <div id="summaryModal" class="modal">
-      <div class="modal-content">
-        <button class="close" id="closeSummary">✕</button>
-        <h2>今日 / 今週のタスク</h2>
-        <div id="todayList"></div>
-        <hr />
-        <div id="weekList"></div>
-      </div>
+      <button id="deleteAllBtn" class="danger">一括削除</button>
     </div>
 
-    <!-- Calendar Modal -->
-    <div id="calendarModal" class="modal">
-      <div class="modal-content">
-        <button class="close" id="closeCalendar">✕</button>
-        <h2>カレンダー</h2>
-        <div id="calendar"></div>
-      </div>
-    </div>
+    <div id="goalsContainer" class="goals"></div>
 
   </div>
 

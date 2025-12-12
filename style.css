@@ -1,181 +1,145 @@
-/* ========== Base ========== */
-:root {
-  --bg: #0e0f12;
-  --card: rgba(255,255,255,0.06);
-  --border: rgba(255,255,255,0.12);
-  --text: #eef3ff;
-  --muted: #94a3b8;
-
-  --accent1: #7c4dff;
-  --accent2: #4b9dff;
-
-  --danger1: #ff6b6b;
-  --danger2: #ff4757;
-}
-
 body {
-  background: var(--bg);
-  color: var(--text);
+  background: #0b0d10;
+  color: #eef3ff;
+  font-family: "Inter", "Segoe UI", sans-serif;
   margin: 0;
-  font-family: "Segoe UI", "Inter", sans-serif;
-  padding: 24px;
+  padding: 30px;
 }
 
 .app {
-  max-width: 1000px;
+  max-width: 900px;
   margin: auto;
 }
 
-/* ========== Header ========== */
-.header h1 {
-  margin: 0;
-  font-size: 26px;
-  font-weight: 700;
-}
-.subtitle {
-  margin-top: 4px;
-  color: var(--muted);
-  font-size: 14px;
+.title {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-/* ========== Goal Create ========== */
-.goal-create {
+/* ======================= */
+/* 目標追加エリア */
+/* ======================= */
+.goal-add-area {
   display: flex;
-  gap: 8px;
-  margin: 20px 0;
+  gap: 10px;
 }
-.goal-create input {
+
+.goal-add-area input {
   flex: 1;
   padding: 12px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 12px;
-  color: var(--text);
-}
-.goal-create button {
-  padding: 12px 16px;
-  background: linear-gradient(90deg, var(--accent1), var(--accent2));
-  border: none;
-  border-radius: 12px;
-  color: white;
-  cursor: pointer;
-}
-.goal-create button.ghost {
-  background: var(--card);
-  border: 1px solid var(--border);
-  color: var(--muted);
-}
-.goal-create button.danger {
-  background: linear-gradient(90deg, var(--danger1), var(--danger2));
+  border-radius: 10px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
   color: white;
 }
 
-/* ========== Goals ========== */
+.goal-add-area button {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #4b9dff, #7c4dff);
+  color: white;
+}
+
+.goal-add-area .danger {
+  background: linear-gradient(90deg, #ff6b6b, #ff4757);
+}
+
+/* ======================= */
+/* 目標カード */
+/* ======================= */
 .goals {
-  margin-top: 20px;
-  display: grid;
-  gap: 18px;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .goal-card {
-  background: var(--card);
-  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
   border-radius: 12px;
-  padding: 16px;
+  padding: 18px;
+  position: relative;
+}
+
+/* ★ 左のカラーアクセント（追加） */
+.goal-accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 6px;
+  height: 100%;
+  border-radius: 12px 0 0 12px;
 }
 
 .goal-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
-}
-.goal-title {
-  font-weight: 600;
-}
-.goal-deadline {
-  font-size: 12px;
-  color: var(--muted);
+  margin-bottom: 12px;
 }
 
-/* Tasks */
+.goal-deadline {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+/* ======================= */
+/* タスク */
+/* ======================= */
 .task-list {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
+
 .task-item {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   padding: 6px 0;
 }
-.task-item button {
+
+.task-date {
   margin-left: auto;
-  background: var(--danger1);
+  padding: 4px 6px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  color: white;
+}
+
+.task-item button {
+  background: #ff4757;
   border: none;
   color: white;
-  padding: 4px 8px;
+  padding: 5px 8px;
   border-radius: 6px;
   cursor: pointer;
 }
 
-/* Progress */
+/* ======================= */
+/* 進捗バー（％表示） */
+/* ======================= */
 .progress-wrap {
   margin-top: 10px;
 }
+
+.progress-text {
+  font-size: 13px;
+  color: #cbd5e1;
+  margin-bottom: 4px;
+}
+
 .progress-bar {
-  background: var(--border);
   height: 10px;
-  border-radius: 12px;
+  background: rgba(255,255,255,0.12);
+  border-radius: 10px;
   overflow: hidden;
 }
+
 .progress-fill {
   height: 100%;
   background: linear-gradient(90deg, #4b9dff, #7c4dff);
-}
-
-/* ========== Modal ========== */
-.modal {
-  display: none;
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-  padding-top: 60px;
-}
-.modal-content {
-  background: #15171d;
-  margin: auto;
-  padding: 20px;
-  border-radius: 12px;
-  max-width: 700px;
-}
-.close {
-  float: right;
-  background: none;
-  border: none;
-  color: var(--muted);
-  cursor: pointer;
-  font-size: 18px;
-}
-#calendar {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  gap: 8px;
-  max-width: 500px;
-  margin: 0 auto;
-}
-.calendar-day {
-  padding: 8px;
-  margin: 0;
-  background: var(--card);
-  border-radius: 10px;
-  min-width: 0;
-}
-.calendar-event {
-  background: linear-gradient(90deg, var(--accent1), var(--accent2));
-  padding: 4px 6px;
-  border-radius: 6px;
-  margin-top: 4px;
-  color: #001;
 }
