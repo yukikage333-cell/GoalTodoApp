@@ -70,26 +70,6 @@ body {
   color: white;
 }
 
-/* ========== Overall Progress ========== */
-.overall label {
-  font-size: 14px;
-  color: var(--muted);
-}
-.overall-bar {
-  margin-top: 6px;
-  height: 14px;
-  background: var(--card);
-  border-radius: 12px;
-  overflow: hidden;
-}
-#progressGauge {
-  height: 100%;
-  background: linear-gradient(90deg, #43e97b, #38f9d7);
-  text-align: center;
-  font-size: 12px;
-  color: #001;
-}
-
 /* ========== Goals ========== */
 .goals {
   margin-top: 20px;
@@ -178,11 +158,19 @@ body {
   cursor: pointer;
   font-size: 18px;
 }
+#calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+}
 .calendar-day {
   padding: 8px;
-  margin: 6px;
+  margin: 0;
   background: var(--card);
   border-radius: 10px;
+  min-width: 0;
 }
 .calendar-event {
   background: linear-gradient(90deg, var(--accent1), var(--accent2));

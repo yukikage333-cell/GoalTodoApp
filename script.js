@@ -142,7 +142,6 @@ function renderGoals(){
     box.appendChild(card);
   });
 
-  updateOverallProgress();
 }
 
 /* -------------------------
