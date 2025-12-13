@@ -5,7 +5,7 @@
 
 ---
 
-## 🎬 デモ動画（常に表示）
+## 🎬 デモ動画
 
 <video
   src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076"
