@@ -12,12 +12,10 @@
 
 ---
 
-## デモ
+## デモ動画
 
-<video controls autoplay loop muted width="600">
-  <source src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[▶ デモ動画を再生する](https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076)
+
 
 ---
 ---
@@ -42,11 +40,13 @@
 目標カラー・アイコン付き
 「完了」ボタンで通知を閉じる
 
+
 使用技術
 
 HTML / CSS / JavaScript
 ローカルストレージでデータ保存
 祝日API利用
+
 
 ファイル構成
 　index.html       # メインページ
@@ -54,10 +54,12 @@ HTML / CSS / JavaScript
 　script.js        # JSコード（目標・タスク・カレンダー・通知）
 　demo.mp4         # デモ動画（任意）
 
+
 改善案
 ・通知デザインのカスタマイズ
 ・タスクのドラッグ＆ドロップ並び替え
 ・月間目標進捗グラフ表示
+
 
 終わりに
 Goal Trackerは、日々の目標を効率的に管理し、計画的に達成するためのツールです。
