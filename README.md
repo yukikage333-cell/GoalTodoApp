@@ -14,26 +14,13 @@
 
 ## デモ
 
-https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076
+<video controls autoplay loop muted width="600">
+  <source src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ---
-
-## GitHub リポジトリ
-
-ソースコードは以下のGitHubリポジトリから入手可能です：
-
-[Goal Tracker リポジトリ](https://github.com/your-username/goal-tracker)
-
 ---
-
-## セットアップ
-
-1. リポジトリをクローン：
-```bash
-git clone https://github.com/your-username/goal-tracker.git
-cd goal-tracker
-
-2. ブラウザで index.html を開くだけで利用可能
 
 使い方
 
