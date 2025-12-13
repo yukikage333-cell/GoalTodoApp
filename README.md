@@ -70,7 +70,7 @@ Goal Tracker は、毎日の小さな行動を続けることで大きな目標�
 または動画を埋め込む場合：
 
 <video controls autoplay loop muted width="600">
-  <source src="https://github.com/user-attachments/assets/fc400416-52a1-486a-bc19-628853337cb1" type="video/mp4">
+  <source src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
