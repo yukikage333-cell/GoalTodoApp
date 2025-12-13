@@ -1,54 +1,3 @@
-
-# 🎯 Goal Tracker（目標管理アプリ）
-
-## はじめに
-Goal Tracker は、目標ごとのタスク進捗をシンプルに管理できる Web アプリです。  
-目標を入力すると内容に応じて 5 つのタスクが自動生成され、すぐに進捗確認できます。
-
----
-
-## 🎥 デモ動画
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/4e1109ae-dfbc-43cf-973e-bac999994ab6" width="600" controls></video>
-</div>
-
----
-
-## 🚀 使い方
-
-### 1. 目標を作成
-- 目標名と期限を入力  
-- 内容に応じた 5 つのタスクが自動生成されます  
-
-### 2. タスクを進める
-- タスクにチェックを入れると進捗率が更新  
-- タスクの個別削除も可能  
-
-### 3. 期限管理
-- タスク横のカレンダーで個別の締切を設定  
-- 月間カレンダービューで全体の期限を確認できます  
-
-### 4. 一覧表示
-- 目標カードは色分け  
-- 新しい目標は下に追加されます  
-
-### 5. 一括削除
-- 全目標・全タスクをまとめて削除できるボタン付き  
-
----
-
-## 🛠 使用技術
-- **HTML / CSS / JavaScript**  
-- **localStorage**（データの永続保存）  
-- **カスタムカラー UI（目標ごとに色分け）**  
-- **レスポンシブデザイン**  
-
----
-
-## 🎉 おわりに
-Goal Tracker は、毎日の小さな行動を続けることで大きな目標達成をサポートするシンプルなアプリです。  
-あなたのペースで、無理なく使い続けられるようデザインしました。  
-ぜひ日々の目標管理に活用してみてください！
 # Goal Tracker Webアプリ
 
 ## 概要
@@ -65,14 +14,7 @@ Goal Tracker は、毎日の小さな行動を続けることで大きな目標�
 
 ## デモ
 
-![デモGIF](./demo.gif)  
-
-または動画を埋め込む場合：
-
-<video controls autoplay loop muted width="600">
-  <source src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076
 
 ---
 
