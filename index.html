@@ -8,15 +8,33 @@
 <body>
   <div class="app">
 
-    <h1 class="title">Goal Tracker</h1>
+    <header class="header">
+      <h1>Goal Tracker</h1>
+      <p class="subtitle">目標を立てて、タスクで確実に前進</p>
+    </header>
 
-    <div class="goal-add-area">
-      <input id="goalInput" placeholder="目標を入力">
-      <input id="goalDeadline" type="date">
+    <div class="goal-create">
+      <input id="goalInput" placeholder="目標を入力" />
+      <select id="goalIcon">
+        <option value="🎯">🎯</option>
+        <option value="🏃">🏃</option>
+        <option value="📚">📚</option>
+        <option value="💻">💻</option>
+        <option value="🧠">🧠</option>
+        <option value="🔥">🔥</option>
+      </select>
+      <input id="goalDeadline" type="date" />
       <button id="addGoalBtn">追加</button>
       <button id="deleteAllBtn" class="danger">一括削除</button>
     </div>
 
+    <!-- 通知エリア -->
+    <div id="notificationArea" class="notification-area"></div>
+
+    <!-- 月間カレンダー -->
+    <div id="monthCalendar" class="month-calendar"></div>
+
+    <!-- 目標カード一覧 -->
     <div id="goalsContainer" class="goals"></div>
 
   </div>
