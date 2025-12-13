@@ -5,12 +5,17 @@
 
 ---
 
-## 🎬 デモ動画
+## 🎬 デモ動画（常に表示）
 
-<video src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076" controls autoplay muted loop playsinline width="100%"></video>
-
-※ 再生されない場合はこちら  
-▶ [デモ動画を直接見る](./demo.mp4)
+<video
+  src="https://github.com/yukikage333-cell/GoalTodoApp/issues/5#issue-3721944076"
+  controls
+  autoplay
+  muted
+  loop
+  playsinline
+  width="100%">
+</video>
 
 ---
 
