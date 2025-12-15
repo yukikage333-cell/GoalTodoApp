@@ -7,8 +7,10 @@
 
 ## 🎥 デモ
 
-<img src="https://github.com/user-attachments/assets/a8f7ce3f-dd81-4976-a320-8a7e157f4a76" width="600" />
+<p align="center">
+　<img src="assets/デモ動画.gif" width="600" />
 
+</p>
 ---
 
 ✨ 主な機能
