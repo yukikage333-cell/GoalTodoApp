@@ -5,10 +5,12 @@
 
 ---
 
-## 🎥 デモ（GIF）
+## 🎥 デモ
 
-```md
-![Image](https://github.com/user-attachments/assets/a8f7ce3f-dd81-4976-a320-8a7e157f4a76)
+<img src="https://github.com/user-attachments/assets/a8f7ce3f-dd81-4976-a320-8a7e157f4a76" width="600" />
+
+---
+---
 
 ✨ 主な機能
 ・目標の作成（期限・アイコン付き）
@@ -19,12 +21,16 @@
 ・期限前（3日前・当日）の通知表示
 ・データ自動保存（localStorage）
 
+---
+---
 
 🛠 使用技術
 HTML / CSS / JavaScript
 localStorage
 日本の祝日 API（holidays-jp）
 
+---
+---
 
 📖 使い方
 1.目標名・アイコン・期限を入力して「追加」
@@ -32,6 +38,8 @@ localStorage
 3.タスクに日付を設定するとカレンダーに反映
 4.進捗と期限を確認しながら目標を達成
 
+---
+---
 
 📂 ファイル構成
 index.html
@@ -39,6 +47,8 @@ style.css
 script.js
 demo.gif（任意）
 
+---
+---
 
 ## 🚀 今後追加したい機能（アイデア）
 - タスクの並び替え（ドラッグ＆ドロップ）
@@ -48,6 +58,8 @@ demo.gif（任意）
 - 通知のON / OFF設定
 - モバイル表示の最適化
 
+---
+---
 
 🏁 おわりに
 Goal Tracker は
