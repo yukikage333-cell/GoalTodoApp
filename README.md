@@ -8,8 +8,7 @@
 ## 🎥 デモ（GIF）
 
 ```md
-![Goal Tracker Demo](https://github.com/user-attachments/assets/a8f7ce3f-dd81-4976-a320-8a7e157f4a76)
-
+![Image](https://github.com/user-attachments/assets/a8f7ce3f-dd81-4976-a320-8a7e157f4a76)
 
 ✨ 主な機能
 ・目標の作成（期限・アイコン付き）
